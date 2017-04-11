@@ -1,0 +1,115 @@
+/*p{
+    background: #00153c;
+    color: #fff;
+}*/
+
+/* Selector Universal */
+/**{
+ color: #be0000
+}*/
+
+/* Selector de Etiqueta */
+/*strong{
+    color: #0d41a2;
+    font-size: 25px;
+}*/
+
+/* Selector Descendente */
+
+p span{
+    /*background: #a7b53c;*/
+}
+
+p span strong{
+    /*background: #de0000;*/
+}
+
+/* Selector de Clase*/
+
+.parrafo1{
+    background: #be0000
+}
+.parrafo2{
+    background: #0d41a2
+}
+
+/* Selector de ID*/
+
+#btn-upeu{
+    background: #a3103e;
+    color: #fff;
+    font-size: 20px;
+    font-family: cursive;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /*border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;*/
+    border-radius: 50px;
+}
+
+#btn-upeu:hover{
+    background: #aa3b5e;
+    color: #c6bfbf;
+}
+
+/* Selector descendente combinado */
+.cuerpo p span strong{
+    background: #0d41a2;
+    color: #fff;
+}
+
+/* Selector de Hijo */
+
+.dos>p{
+    background: #be0000
+}
+
+div>p>span>strong{
+    background: #be0000
+}
+
+/*Selector de Hermano Adyacente*/
+
+p+label{
+    background: #be0000;
+}
+
+a+label{
+    background: #0d41a2
+}
+
+/*Pseudo Selector :link */
+
+a{
+    display: block;
+}
+
+.pslink:link{
+   color: red;
+}
+
+/* Pseudo selector :visited*/
+.pslink{
+    font-size: 25px;
+    text-decoration: none;
+    /*text-decoration: underline;*/
+}
+.pslink:hover{
+    text-decoration: underline;
+    background: #fdfd50;
+}
+
+.pslink:visited{
+    color: #887e7e
+}
+
+.pslink:active{
+    font-size: 40px;
+}
+
+
+
